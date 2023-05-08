@@ -1,0 +1,191 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+nav{
+    padding: 42px;
+    display: flex;
+    background-color: black;
+    position: relative;
+}
+nav ul li{
+    display: inline-block;
+    padding: 12px;
+    list-style: none;
+    font-size: 16px;
+    transition: all 0.2s ease-in-out;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: #1ed760;
+}
+ul{
+    position:absolute;
+    right:50px;
+    top:15px;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+.logo{
+    float: left;
+    position: absolute;
+    left:30px;
+    top:12px;
+    display: flex;
+    cursor: pointer;
+}
+.logo img{
+    width:60px;
+    height:60px;
+    filter: invert(100%);
+}
+.logo h1{
+    color: white;
+    margin-top: 12px;
+}
+section{
+    background-color: rgb(161, 36, 139);
+    /* background-color: #05b744; */
+    height: 400px;
+}
+section h1{
+    color: white;
+    padding: 40px 0px 0px 40px;
+    font-size: 40px;
+    margin-left: 50px;
+}
+section p{
+    margin-left: 50px;
+    font-size: 20px;
+    color:white;
+    padding: 20px 0px 0px 40px;
+}
+.btn{
+    background-color: black;
+    color: white;
+    padding:15px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: bold;
+    margin:20px 0px 0px 80px;
+    border: none;
+    outline: none;
+    
+}
+.btn1{
+    background-color: rgb(161, 36, 139);
+    /* background-color:#05b744; ; */
+    color: white;
+    padding:15px;
+    width: 150px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: bold;
+    margin:20px 0px 0px 20px;
+    border: 1px solid white;
+}
+.btn:hover{
+    transform: scale(1.03);
+}
+.btn1:hover{
+    transform: scale(1.03);
+    /* background-color:#03792d;  */
+    background-color: rgb(145, 19, 122);
+
+}
+.image img{
+    float: right;
+    width:350px;
+    height: 300px;
+    margin-top: -250px;
+    right:100px;
+    border: 1px solid white;
+}
+.image{
+    margin-right: 80px;
+}
+#premimum{
+    height: 310px;
+    padding: 0px 110px 0px 140px;
+}
+.box{
+    padding: 10px;
+    width:250px;
+    height: 100px;
+    display: inline-block;
+    margin-top: 10px;
+    text-align: center;
+}
+.box img{
+    padding: 15px;
+    width: 170px;
+    height: 150px;
+}
+.div{
+    margin-top: 30px;
+    margin-left: 50px;
+}
+#help{
+    margin-top: 30px;
+    background-color: rgb(235, 231, 231);
+    height: 300px;
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+    grid-template-rows: auto 0px auto;
+    place-items: center;
+    justify-content: center;
+    grid-gap: 2.4rem;
+    grid-row-gap: 10px;
+}
+.box1{
+    border: 1px solid black;
+    width: 180px;
+    height: 80px;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+.box1:hover{
+transform: scale(1.05);
+}
+#download{
+    height: 300px;
+    background-color:rgb(161, 36, 139);
+    margin-top: 50px;
+}
+#download button:hover{
+    transform: scale(1.04);
+}
+footer{
+    height: 80px;
+    background-color: black;
+    margin-top: 50px;
+}
+footer img{
+    width: 100px;
+    height: 80px;
+    filter: invert(100%);
+}
+footer a{
+    padding: 10px;
+    font-size: 17px;
+    text-decoration: 2px underline rgb(161, 36, 139);
+}
+.last{
+    margin-left: 605px;
+    padding: 10px;
+}
+input:focus{
+    background-color: rgb(253, 216, 253);
+}
